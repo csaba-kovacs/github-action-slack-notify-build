@@ -98,7 +98,7 @@ describe('Utils', () => {
 
         expect(attachments[0].fields.find(a => a.title === 'Pull Request')).toEqual({
           title: 'Pull Request',
-          value: `<https://github.com/csaba-kovacs/github-action-slack-notify-build/pulls/1 | This is a PR>`,
+          value: `<https://github.com/voxmedia/github-action-slack-notify-build/pulls/1 | This is a PR>`,
           short: true,
         });
       });
