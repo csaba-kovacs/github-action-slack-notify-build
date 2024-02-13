@@ -3,6 +3,7 @@ name: GitHub Action Slack Notify CI
 on:
   - push
   - pull_request
+  - workflow_dispatch
 
 jobs:
   build:
